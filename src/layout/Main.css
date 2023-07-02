@@ -1,0 +1,42 @@
+.pointer {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(187, 187, 255);
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    transition: 0.1s ease-in-out;
+    box-shadow: 4px 4px 20px .1px rgb(78, 78, 252),
+        -4px 4px 20px .1px rgb(78, 78, 252),
+        4px -4px 20px .1px rgb(78, 78, 252),
+        -4px -4px 20px .1px rgb(78, 78, 252),
+        4px 4px 50px .1px rgb(78, 78, 252),
+        -4px 4px 50px .1px rgb(78, 78, 252),
+        4px -4px 50px .1px rgb(78, 78, 252),
+        -4px -4px 50px .1px rgb(78, 78, 252),
+
+        4px 4px 100px 9px rgb(0, 115, 255),
+        -4px 4px 100px 9px rgb(0, 145, 255),
+        4px -4px 100px 9px rgb(0, 145, 255),
+        -4px -4px 100px 9px rgb(0, 145, 255),
+        40px 40px 120px 10px rgb(0, 255, 234),
+        -40px 40px 120px 10px rgb(0, 229, 255),
+        40px -40px 120px 10px rgb(0, 229, 255),
+        -40px -40px 120px 10px rgb(0, 229, 255),
+        4px 4px 140px 12px rgb(0, 229, 255),
+        -4px 4px 140px 12px rgb(0, 229, 255),
+        4px -4px 140px 12px rgb(0, 229, 255),
+        -4px -4px 140px 12px rgb(0, 229, 255)
+        
+        ;
+    filter: blur(20px);
+    z-index: 1;
+    /* display: none; */
+}
+
+
+.content:hover ~ .pointer{
+    z-index: -1;
+    display: none;
+}

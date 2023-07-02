@@ -1,0 +1,53 @@
+.blob {
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 0, 0, 0.726);
+    animation: animate 10s ease-in-out infinite;
+    transition: all .1s ease;
+}
+
+@keyframes animate {
+    0%{
+        border-radius: 60% 40% 35% 70%/60% 35% 70% 40%;
+    }
+    25%{
+        border-radius: 70% 50% 60% 40%/70% 50% 60% 40%;
+    }
+    50%{
+        border-radius: 35% 60% 70% 40%/50% 60% 35% 60%;
+    }
+    75%{
+        border-radius: 40% 60% 70% 35%/50% 60% 40% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 35% 70%/60% 35% 70% 40%;
+    }
+}
+
+
+.blob2 {
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    /* background: rgba(128, 126, 0, 0.54); */
+    animation: animate2 10s ease-in-out infinite;
+    transition: all .1s ease;
+}
+
+@keyframes animate2 {
+    0%{
+        border-radius: 0% 0%40% 70%/0% 0% 50% 40%;
+    }
+    25%{
+        border-radius: 0% 0% 60% 40%/0% 0% 40% 40%;
+    }
+    50%{
+        border-radius: 0% 0% 50% 40%/0% 0% 40% 30%;
+    }
+    75%{
+        border-radius: 0% 0% 30% 40%/0% 0% 40% 30%;
+    }
+    100%{
+        border-radius: 0% 0% 40% 50%/0% 0% 50% 40%;
+    }
+}

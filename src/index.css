@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content{
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0;
+    animation: size .5s ease-in-out;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+/* @keyframes size {
+    0%{
+        font-size: 0px;
+    }
+    100%{
+        font-size: 40px;
+    }
+}
+
+.content::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #8e3dfe;
+    font-size: 40px;
+    font-weight: 700;
+    animation: width .5s ease-in-out;
+}
+@keyframes width {
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: full;
+    }
+} */
+
+/* nav a{
+    color:red
+} */
